@@ -4,7 +4,7 @@ nav {
 
 }
 nav a {
-        color: white;
+        color: #d7d7ff;
         display: block;
         padding: 20px;
 }
@@ -15,10 +15,10 @@ h1 {
 img {
         width: 150px;
         height: auto;
-        border: 1px solid steelblue;
+        border: 10px solid #d7d7ff;
         padding: 2px;
         box-shadow: 0 0 30px gray;
 }
-p {
-    padding: 10px;
+p   {
+         padding: 10px;
 }
