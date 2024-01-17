@@ -17,7 +17,7 @@ img {
         height: auto;
         border: 10px solid #d7d7ff;
         padding: 2px;
-        box-shadow: 0 0 30px gray;
+        box-shadow: 0 0 20px black;
 }
 p {
          padding: 10px;
@@ -48,6 +48,6 @@ p {
 }
 footer {
         margin-top: 15px;
-        border-top: 1px solid #93366;
+        border-top: 2px solid #993366;
         text-align: center;
 }
