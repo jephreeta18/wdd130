@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Gloria+Hallelujah&family=Inter&family=Titillium+Web:wght@200;400&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Titillium+Web&display=swap');
 
 :root {
-    --primary-color: #E0ECF7;
-    --secondary-color: #005172;
-    --accent1-color: #FF1053;
+    --primary-color: #005172;
+    --secondary-color: #ff1053;
+    --accent1-color: aliceblue;
     --accent2-color: #190B28;
-
-    --heading-font: 'zeyada', handwriting;
-    --paragraph-font: 'inter', san-serif;
-
-    --nav-background-color: #ff1053;
-    --nav-link-color: #E0ECF7;
-    --nav-hover-link-color: #005172;
-    --nav-hover-background-color: #ff1053;
+    --heading-font: 'Comforter', cursive;
+    --paragraph-font: 'Titillium Web' sans-serif;
+    --nav-background-color: #005172;
+    --nav-link-color: #ff1053;
+    --nav-hover-link-color: #ff99B6;
+    --nav-hover-background-color: #0a0410;        
 }
 
 body {
@@ -20,25 +18,16 @@ body {
     max-width: 960px;
     padding: 20px
     background-color: var(--accent2-color);
+}
 
-}
-main {
-    background-color: var(--accent2-color);
-}
 h1 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    font-size: 5rem;
+    color: var(--secondary-color);
 }
-h2 {
-    font-size: 4rem;
-}
-h3 {
-    font-size: 2rem;
-}
+
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 header {
@@ -48,7 +37,6 @@ header {
 
 p {
     padding: 25px;
-    color: var(--primary-color);
 }
 
 nav {
@@ -72,4 +60,3 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
