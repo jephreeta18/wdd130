@@ -18,7 +18,7 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px
+    padding: 20px;
     background-color: var(--accent2-color);
 
 }
@@ -40,7 +40,9 @@ h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
-
+li {
+    color: var(--primary-color);
+}
 header {
     padding: 20px;
     background-color: var(--accent1-color);
