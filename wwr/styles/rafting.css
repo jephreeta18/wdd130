@@ -64,19 +64,24 @@ nav {
 
 .hero img {
     float: right;
-    margin: 15px;
+    margin: 33px 15px 15px 15px;
+    box-shadow: 0 0 20px black;
 }
 
 .hero a {
     position: absolute;
     top: 300px;
+    left: 200px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .hero p {
     opacity: 80%;
     color: white;
     width: 400px;
-    padding-left: 100px;
+    box-shadow: 0 0 20px black;
+
 }
 
 
