@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Gloria+Hallelujah&family=Inter&family=Titillium+Web:wght@200;400&family=Zeyada&display=swap');
+:root {
+    --primary-color: #E0ECF7;
+    --secondary-color: #005172;
+    --accent1-color: #FF1053;
+    --accent2-color: #190B28;
+
+    --heading-font: 'zeyada', handwriting;
+    --paragraph-font: 'inter', san-serif;
+
+    --nav-background-color: #ff1053;
+    --nav-link-color: #E0ECF7;
+    --nav-hover-link-color: #005172;
+    --nav-hover-background-color: #ff1053;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+main {
+    background-color: var(--accent2-color);
+    position: relative;
+    width: 100%;
+}
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    opacity: .8;
+}
+h2 {
+    font-size: 4rem;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+p {
+    padding: 15px;
+    color: var(--primary-color);
+    text-align: justify;
+    width: 90%;
+}
+li {
+    color: var(--primary-color);
+}
+header {
+    background-color: var(--accent1-color);
+}
+header img {
+    float: left
+}
+nav {
+    width: 100%
+}
+.hero {
+    position: relative;
+}
+
+.hero img {
+    float: right;
+    margin: 15px;
+}
+
+.hero a {
+    position: absolute;
+    top: 300px;
+}
+
+.hero p {
+    opacity: 80%;
+    color: white;
+    width: 400px;
+    padding-left: 100px;
+}
+
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
