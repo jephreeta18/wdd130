@@ -60,8 +60,8 @@ main {
         grid-column: 2/3;
         margin: 1rem;
         max-width: 580px;
-        padding: 20px
-        color: #fff3cc
+        padding: 20px;
+        color: #fff3cc;
 } 
 main img {
         width: 150px;
@@ -98,11 +98,4 @@ p {
         background-color: #fff3cc;
         color: #993366;
 }
-.box a {
-        color: #993366;
-        text-decoration: none;
-        font-size: 1..5rem;
-        font-weight: 700;
-        margin: .4rem;
-        text-justify: center;
-}
+
