@@ -7,11 +7,14 @@
 }
 aside {
         width: 23rem;
-        text-align: left;
+        text-align: center;
         position: relative;
         padding: 2px;
         grid-column: 1/2;
         grid-row: 1/2;
+        font-family: inter;
+        font-weight: bold;
+        box-shadow: 0 0 20px black;
 }
 aside img {
         width: 300px;
@@ -41,7 +44,9 @@ footer {
         text-align: center;
 }
 h1 {
-        color: #993366;
+        color: #d7d7ff;
+        font-size: 1.75rem;
+        border-bottom-style: inset;
 }
 header, footer, .grid {
         margin: 0 auto;
@@ -62,6 +67,7 @@ main {
         max-width: 580px;
         padding: 20px;
         color: #d7d7ff;
+        font-weight: 500;
 } 
 main img {
         width: 150px;
