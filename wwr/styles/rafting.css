@@ -20,11 +20,6 @@ body {
     padding: 20px;
     background-color: var(--accent2-color);
 }
-main {
-    background-color: var(--accent2-color);
-    position: relative;
-    width: 100%;
-}
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -40,6 +35,19 @@ h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
+header {
+    background-color: var(--accent1-color);
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    border: 10px solid var(--secondary-color);
+    font-weight: 700;
+}
+header img {
+    float: left;
+    height: 80px;
+}
 p {
     padding: 15px;
     color: var(--primary-color);
@@ -49,14 +57,34 @@ p {
 li {
     color: var(--primary-color);
 }
-header {
-    background-color: var(--accent1-color);
-}
-header img {
-    float: left
+main {
+    background-color: var(--accent2-color);
+    position: relative;
+    width: 100%;
 }
 nav {
-    width: 100%
+    width: 100%;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 .hero {
     position: relative;
@@ -83,26 +111,10 @@ nav {
     box-shadow: 0 0 20px black;
 
 }
-
-
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+.history {
     display: flex;
 }
-
-nav a{
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+.adventure {
+    display: flex;
+    flex-flow: row;
 }
