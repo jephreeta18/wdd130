@@ -47,6 +47,7 @@ header {
 header img {
     float: left;
     height: 80px;
+    border-right: 10px solid var(--secondary-color)
 }
 p {
     padding: 15px;
