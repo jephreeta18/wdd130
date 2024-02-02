@@ -13,12 +13,19 @@
     --nav-hover-link-color: #005172;
     --nav-hover-background-color: #ff1053;
 }
-
 body {
     font-family: var(--paragraph-font);
     max-width: 1080px;
     padding: 20px;
     background-color: var(--accent2-color);
+}
+footer {
+    width: 100%;
+    background-color: var(--nav-background-color);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 h1 {
     font-family: var(--heading-font);
@@ -62,7 +69,7 @@ main {
     background-color: var(--accent2-color);
     position: relative;
     width: 100%;
-        margin: 1rem auto;
+    margin: 1rem auto;
 }
 nav {
     width: 100%;
@@ -72,18 +79,15 @@ nav {
     align-items: center;
     justify-content: space-around;
 }
-
 nav a{
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
-
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
@@ -93,7 +97,6 @@ section {
 }
 .figure {
     font-size: 12px;
-
 }
 .hero {
     position: relative;
@@ -105,13 +108,13 @@ section {
 .hero h1 {
     text-align: center;
     width: 100%;
+    box-shadow: 20px 0 20px 0 black;
 }
 .hero img {
     float: right;
-    margin: 0;
+    margin: 25px 20px 0px 20px;
     box-shadow: 0 0 20px black;
 }
-
 .hero a {
     position: absolute;
     top: 500px;
@@ -119,13 +122,12 @@ section {
     height: auto;
     background-color: rgba(0,0,0,0.5);
 }
-
 .hero p {
     opacity: 80%;
     color: white;
     width: 400px;
+    font-size: 14.5px;
     box-shadow: 0 0 20px black;
-
 }
 .history {
     display: flex;
