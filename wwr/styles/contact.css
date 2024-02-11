@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Gloria+Hallelujah&family=Inter&family=Titillium+Web:wght@200;400&family=Zeyada&display=swap');
+:root {
+    --primary-color: #E0ECF7;
+    --secondary-color: #005172;
+    --accent1-color: #FF1053;
+    --accent2-color: #190B28;
+
+    --heading-font: 'zeyada', handwriting;
+    --paragraph-font: 'inter', san-serif;
+
+    --nav-background-color: #ff1053;
+    --nav-link-color: #E0ECF7;
+    --nav-hover-link-color: #005172;
+    --nav-hover-background-color: #ff1053;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1080px;
+    background-color: var(--accent2-color);
+}
+footer {
+    width: 100%;
+    background-color: var(--nav-background-color);
+    font-size: 12px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    padding: 0px;
+    max-width: 300px;
+    margin: auto;
+    width: 40%;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    opacity: .8;
+}
+h2 {
+    font-size: 4rem;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    text-align: left;
+    margin: 0 0 0 310px;
+}
+.happy {
+    text-align: center;
+    margin: 20px;
+}
+h3 {
+    text-align: left;
+    font-size: 2rem;
+    margin: 0 0 0 320px;
+}
+header {
+    background-color: var(--accent1-color);
+    display: grid;
+    margin: auto;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    border: 10px solid var(--secondary-color);
+    font-weight: 700;
+    min-width: 1000px;
+}
+header img {
+    float: left;
+    height: 80px;
+    border-right: 10px solid var(--secondary-color)
+}
+p {
+    padding: 0;
+    margin: 0 0 40px 300px;
+    color: var(--primary-color);
+    text-align: left;
+    width: 90%;
+    font-size: 1.2rem;
+    font-family: 'inter';
+}
+.copyright {
+    margin: auto;
+    padding: 10px;
+    color: var(--primary-color);
+    text-align: center;
+
+    font-size: 1.2rem;
+    font-family: 'inter';
+}
+main {
+    background-color: var(--accent2-color);
+    position: relative;
+    width: 100%;
+    margin: 1rem auto;
+}
+nav {
+    width: 100%;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+section {
+    text-align: center;
+}
+
+.map {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 50%;
+}
+.adventure {
+    position: relative;
+    display: flex;
+    flex: 1 auto;
+    padding: 0;
+    align-content: space-between;
+    flex-grow: 0;
+    max-width: 1000px;
+    min-width: auto;
+    color: var(--primary-color);
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+.figure {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    gap: 10px;
+    font-family: var(--paragraph-font);
+}
+.figcaption {
+    position: absolute;
+    bottom: 0%;
+    width: 100%
+}
+body {
+    font-family: 'zeyada', san-serif;
+    font-size: 1.2em;
+    color: #d7d7ff;
+    background: #190b28;
+}
+header {
+    margin: 0 auto;
+    width: 425px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: white;
+    font-family: inter, san-serif;
+    text-align: center;
+}
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #d7d7ff;
+    border-radius: .5rem;
+    display: grid;
+    background-color:#2c1842;
+}
+fieldset {
+    display: grid;
+    grid-gap: .2rem;
+    margin: .5rem;
+    border: 1px solid #d7d7ff;
+    padding: 20px;
+    background-color: #005172;
+    border-radius: 10px;
+}
+legend {
+    padding: .5rem;
+    color: #E0ECF7;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+label, input, select, textarea, button {
+    font-family: inter, san-serif;
+    color: #e0ecf7;
+    font-size: .8em;
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+    grid-row: 1;
+}
+input, select, textarea {
+    padding: .5rem;
+    font-size: .9rem;
+}
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    text-align: left;
+    margin: 10px;
+}
+
+button {
+    width: 120px;
+    padding: 5px;
+    font-family: 'inter', san-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2c1842;
+    border: none;
+    border-radius: .5rem;
+}
+button:hover {
+    background-color: #ff1053;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 1fr 3fr;
+    margin: .5rem;
+}
