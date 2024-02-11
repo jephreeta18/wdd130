@@ -215,8 +215,12 @@ input, select, textarea {
 input[type="radio"] {
     width: 18px;
     height: 18px;
-    text-align: left;
+    text-align: center;
     margin: 10px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
 }
 
 button {
