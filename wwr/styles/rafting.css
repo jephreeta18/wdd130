@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Gloria+Hallelujah&family=Inter&family=Titillium+Web:wght@200;400&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Gloria+Hallelujah&family=Inter&family=Rubik+Moonrocks&family=Titillium+Web:wght@200;400&family=Zeyada&display=swap');
 :root {
     --primary-color: #E0ECF7;
     --secondary-color: #005172;
     --accent1-color: #FF1053;
     --accent2-color: #190B28;
 
-    --heading-font: 'zeyada', handwriting;
+    --heading-font: 'Rubik Moonrocks', sans-serif;
     --paragraph-font: 'inter', san-serif;
 
     --nav-background-color: #ff1053;
@@ -22,25 +22,34 @@ body {
 footer {
     width: 100%;
     background-color: var(--nav-background-color);
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 h1 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
     font-size: 3.5rem;
     position: absolute;
     width: 100%;
     text-align: center;
-    background-color: black;
-    opacity: .8;
+
 }
 h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    margin-top: 150px;
     font-family: var(--heading-font);
     color: var(--accent1-color);
+}
+h3 {
+    font-size: 2.5rem;
+    color: lightblue;
+
+}
+h4 {
+    font-size: 2rem;
+    color: lightgray;
 }
 header {
     background-color: var(--accent1-color);
@@ -61,15 +70,17 @@ p {
     color: var(--primary-color);
     text-align: justify;
     width: 90%;
+    font-size: 1.5rem;
 }
 li {
     color: var(--primary-color);
+    font-size: 1.5rem;
 }
 main {
     background-color: var(--accent2-color);
     position: relative;
     width: 100%;
-    margin: 1rem auto;
+    margin: 1rem;
 }
 nav {
     width: 100%;
@@ -85,8 +96,11 @@ nav a{
     text-decoration: none;
     padding: 1rem;
 }
+ul li:link, ul li:visited {
+    color: var(--nav-link-color)
+}
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: #e0ecf6;
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
@@ -96,7 +110,7 @@ section {
     text-align: center;
 }
 .figure {
-    font-size: 12px;
+    font-size: 18px;
 }
 .hero {
     position: relative;
@@ -108,11 +122,10 @@ section {
 .hero h1 {
     text-align: center;
     width: 100%;
-    box-shadow: 20px 0 20px 0 black;
 }
 .hero img {
     float: right;
-    margin: 25px 20px 0px 20px;
+    margin: 15px 20px 0px 20px;
     box-shadow: 0 0 20px black;
 }
 .hero a {
@@ -120,7 +133,7 @@ section {
     top: 500px;
     left: 200px;
     height: auto;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #190b2e;
 }
 .hero p {
     opacity: 80%;

@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Gloria+Hallelujah&family=Inter&family=Titillium+Web:wght@200;400&family=Zeyada&display=swap');
+@import url<style>
+@import url@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Gloria+Hallelujah&family=Inter&family=Rubik+Moonrocks&family=Titillium+Web:wght@200;400&family=Zeyada&display=swap');
 :root {
     --primary-color: #E0ECF7;
     --secondary-color: #005172;
     --accent1-color: #FF1053;
     --accent2-color: #190B28;
 
-    --heading-font: 'zeyada', handwriting;
+    --heading-font: 'Rubik Moonrocks', sans-serif;
     --paragraph-font: 'inter', san-serif;
 
     --nav-background-color: #ff1053;
