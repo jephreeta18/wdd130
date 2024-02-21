@@ -132,7 +132,7 @@ img {
 table {
     width: 90%;
     position: relative;
-    margin-left: 100px;
+    margin-left: 50px;
     border-radius: 10px;
     border-width: 1px;
     border-spacing: 2px;
@@ -164,6 +164,10 @@ td {
     text-align: center;
     color:#FF1053;
     font-weight: bold;
+}
+.schedule {
+    width: 90%;
+    margin-left: 40px;
 }
 .mainpic {
     position: relative;
