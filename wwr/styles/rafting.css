@@ -61,9 +61,6 @@ button {
     font-weight: bold;
     font-size: 46px;
     color: var(--nav-hover-link-color)
-    display: flex;
-    align-items: center;
-    justify-content: center;
     }
 h4 {
     font-size: 2rem;
@@ -157,7 +154,7 @@ td {
     font-weight: bold;
     padding: 15px;
     border-radius: 10px;
-    border-style: solid var(--secondary-color);
+    border-style: solid;
 }
 .options {
     text-align: center;
