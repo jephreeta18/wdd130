@@ -128,8 +128,45 @@ nav a:hover {
 section {
     text-align: center;
 }
-.figure {
-    font-size: 18px;
+img {
+    border-radius: 25pt;
+    border: 3px solid #ff1053;
+}
+table {
+    width: 90%;
+    position: relative;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: outset;
+    border-color:#190b2e;
+    border-collapse: separate;
+}
+th, .amenity {
+    font-size: 20pt;
+    padding: 15px;
+    font-weight: bold;
+    background-color:#005172;
+    color: var(--nav-link-color);
+    border-radius: 10px;
+}
+td {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid var(--secondary-color);
+}
+.options {
+    text-align: center;
+}
+.trip {
+    font-size: 2rem;
+    text-align: center;
+    color:#FF1053;
+    font-weight: bold;
 }
 .hero {
     position: relative;
