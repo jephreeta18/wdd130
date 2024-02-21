@@ -47,10 +47,29 @@ h3 {
     color: lightblue;
 
 }
+table {
+    background-color: #E0ECF7;
+}
+button {
+    position: relative;
+    height: 100px;
+    width: 80%;
+    border-radius: 25px;
+    margin: 0 0 0 100px;
+    top: 50%;
+    background-color: var(--nav-link-color);
+    font-weight: bold;
+    font-size: 46px;
+    color: var(--nav-hover-link-color)
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 h4 {
     font-size: 2rem;
     color: lightgray;
 }
+
 header {
     background-color: var(--accent1-color);
     display: grid;
